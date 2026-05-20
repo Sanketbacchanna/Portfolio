@@ -90,3 +90,38 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function() {
     if (textArray.length) setTimeout(type, newTextDelay + 250);
 });
+
+// Mobile menu toggle
+const mobileMenu = document.getElementById('mobile-menu');
+const navLinksContainer = document.querySelector('.nav-links');
+
+if (mobileMenu && navLinksContainer) {
+    mobileMenu.addEventListener('click', () => {
+        navLinksContainer.classList.toggle('active');
+        const icon = mobileMenu.querySelector('i');
+        if (icon) {
+            if (navLinksContainer.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        }
+    });
+
+    // Close mobile menu when a link is clicked
+    const navItems = navLinksContainer.querySelectorAll('a');
+    navItems.forEach(item => {
+        item.addEventListener('click', () => {
+            if (navLinksContainer.classList.contains('active')) {
+                navLinksContainer.classList.remove('active');
+                const icon = mobileMenu.querySelector('i');
+                if (icon) {
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                }
+            }
+        });
+    });
+}
