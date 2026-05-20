@@ -125,3 +125,30 @@ if (mobileMenu && navLinksContainer) {
         });
     });
 }
+
+// Skills Filtering
+const filterBtns = document.querySelectorAll('.filter-btn');
+const skillItems = document.querySelectorAll('.skill-item');
+
+if (filterBtns.length > 0 && skillItems.length > 0) {
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            // Remove active class from all buttons
+            filterBtns.forEach(b => b.classList.remove('active'));
+            // Add active class to clicked button
+            btn.classList.add('active');
+
+            const filterValue = btn.getAttribute('data-filter');
+
+            skillItems.forEach(item => {
+                if (filterValue === 'all') {
+                    item.classList.remove('hide');
+                } else if (item.classList.contains(filterValue)) {
+                    item.classList.remove('hide');
+                } else {
+                    item.classList.add('hide');
+                }
+            });
+        });
+    });
+}

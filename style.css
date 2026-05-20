@@ -439,6 +439,51 @@ section {
     transform: translateY(-2px);
 }
 
+/* Skills Page Specifics */
+.skills-filter {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    background: transparent;
+    border: 1px solid var(--card-border);
+    color: var(--text-color);
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    cursor: none;
+    transition: var(--transition);
+}
+
+.filter-btn:hover, .filter-btn.active {
+    background: rgba(0, 240, 255, 0.1);
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    box-shadow: 0 0 15px var(--accent-glow);
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.skill-item {
+    font-size: 1.1rem;
+    padding: 0.8rem 1.5rem;
+    transition: all 0.4s ease;
+}
+
+.skill-item.hide {
+    display: none;
+}
+
 /* Education Section */
 .timeline {
     position: relative;
