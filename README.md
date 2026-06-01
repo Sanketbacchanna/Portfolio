@@ -73,24 +73,6 @@ This portfolio showcases my skills, projects, certifications, and achievements i
 
 ---
 
-## 🚀 Getting Started
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/portfolio.git
-```
-
-2. Open the project folder
-
-```bash
-cd portfolio
-```
-
-3. Run `index.html` in your browser.
-
----
-
 ## ⭐ Support
 
 If you like this project:
