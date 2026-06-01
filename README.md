@@ -1,109 +1,64 @@
-🌐 Personal Portfolio Website
-<div align="center">
-🚀 Showcasing My Skills, Projects & Journey in Technology
+<h1 align="center">🌐 Personal Portfolio Website</h1>
 
-A modern, responsive, and interactive portfolio website designed to highlight my development skills, projects, certifications, and professional growth.
+<p align="center">
+  <img src="https://img.shields.io/badge/Portfolio-Live-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Responsive-100%25-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Made%20With-HTML%20CSS%20JS-orange?style=for-the-badge" />
+</p>
 
-🌟 Explore My Work • Discover My Skills • Connect With Me
+<h3 align="center">
+🚀 Crafting Modern Web Experiences Through Code
+</h3>
 
-</div>
-📖 About the Project
+---
 
-This portfolio website serves as my digital identity, presenting my technical expertise, academic achievements, and real-world projects in an engaging and user-friendly manner.
+## ✨ Overview
 
-Whether you're a recruiter, developer, or tech enthusiast, this portfolio provides a comprehensive overview of my work and capabilities.
+Welcome to my personal portfolio website!
 
-✨ Key Features
+This portfolio represents my journey as a developer, showcasing my technical skills, projects, certifications, and achievements in a modern and interactive way.
 
-✅ Modern & Professional UI Design
+It is designed to provide visitors with a complete overview of my work, experience, and passion for technology.
 
-✅ Fully Responsive Across All Devices
+---
 
-✅ Smooth Animations & Interactive Effects
+## 🎯 What You'll Find
 
-✅ Dedicated Project Showcase Section
+🔥 Interactive User Interface
 
-✅ Skills & Technology Stack Display
+⚡ Smooth Animations & Transitions
 
-✅ Certifications & Achievements Section
+📱 Fully Responsive Design
 
-✅ Contact Form & Social Media Integration
+💼 Project Showcase
 
-✅ Fast Loading & Optimized Performance
+🏆 Certifications & Achievements
 
-✅ Clean, Structured & Maintainable Code
+🧠 Technical Skills Section
 
-🛠️ Tech Stack
-Frontend	Styling	Scripting
-HTML5	CSS3	JavaScript
-🎯 Portfolio Highlights
+📧 Contact & Social Links
 
-🔹 Personal Introduction
+🌙 Modern Developer-Themed Design
 
-🔹 Technical Skills Overview
+---
 
-🔹 Featured Projects
-
-🔹 Certifications & Achievements
-
-🔹 Education Details
-
-🔹 Contact Information
-
-🔹 Social Media Links
-
-📱 Responsive Design
-
-The website is optimized for:
-
-💻 Desktop
-
-📱 Mobile
-
-📟 Tablet
-
-🌍 Cross-Browser Compatibility
-
-📂 Project Structure
-Portfolio/
-│
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-│   ├── images/
-│   └── icons/
-│
-└── README.md
-🚀 Getting Started
-Clone the Repository
-git clone <your-repository-url>
-Open the Project
-cd portfolio
-
-Simply open index.html in your browser.
-
-📬 Connect With Me
-
-💼 LinkedIn: Your LinkedIn Profile
-
-💻 GitHub: Your GitHub Profile
-
-📧 Email: Your Email Address
-
-⭐ Support
-
-If you like this project, don't forget to:
-
-🌟 Star this repository
-
-🍴 Fork this repository
-
-📢 Share it with others
+## 🛠️ Tech Stack
 
 <div align="center">
-💡 "Turning Ideas into Interactive Digital Experiences"
 
-Made with ❤️ by Sanket Bacchanna
+<img src="https://skillicons.dev/icons?i=html,css,javascript" />
 
 </div>
+
+---
+
+## 📸 Website Sections
+
+```text
+🏠 Home
+👨‍💻 About Me
+🧠 Skills
+🚀 Projects
+🏆 Certifications
+📄 Resume
+📞 Contact
