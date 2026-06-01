@@ -16,29 +16,20 @@
 
 Welcome to my personal portfolio website!
 
-This portfolio represents my journey as a developer, showcasing my technical skills, projects, certifications, and achievements in a modern and interactive way.
-
-It is designed to provide visitors with a complete overview of my work, experience, and passion for technology.
+This portfolio showcases my skills, projects, certifications, and achievements in web development and software development through a modern, responsive, and interactive design.
 
 ---
 
 ## 🎯 What You'll Find
 
-🔥 Interactive User Interface
-
-⚡ Smooth Animations & Transitions
-
-📱 Fully Responsive Design
-
-💼 Project Showcase
-
-🏆 Certifications & Achievements
-
-🧠 Technical Skills Section
-
-📧 Contact & Social Links
-
-🌙 Modern Developer-Themed Design
+- 🔥 Interactive User Interface
+- ⚡ Smooth Animations & Transitions
+- 📱 Fully Responsive Design
+- 💼 Project Showcase
+- 🏆 Certifications & Achievements
+- 🧠 Technical Skills Section
+- 📧 Contact & Social Links
+- 🌙 Modern Developer-Themed Design
 
 ---
 
@@ -46,7 +37,7 @@ It is designed to provide visitors with a complete overview of my work, experien
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,javascript" />
+<img src="https://skillicons.dev/icons?i=html,css,javascript,vscode,git,github" />
 
 </div>
 
@@ -62,12 +53,60 @@ It is designed to provide visitors with a complete overview of my work, experien
 🏆 Certifications
 📄 Resume
 📞 Contact
+```
 
 ---
-## ⭐ Support
-<div align="center">
-💡 "Turning Ideas into Interactive Digital Experiences"
 
-Made with ❤️ by Sanket Bacchanna
+## ✨ Features
+
+✔ Modern & Clean UI Design
+
+✔ Mobile-Friendly Layout
+
+✔ Smooth Scrolling Experience
+
+✔ Responsive Navigation
+
+✔ Optimized Performance
+
+✔ Easy to Customize
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/portfolio.git
+```
+
+2. Open the project folder
+
+```bash
+cd portfolio
+```
+
+3. Run `index.html` in your browser.
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+🌟 Star this repository
+
+🍴 Fork this repository
+
+📢 Share it with others
+
+---
+
+<div align="center">
+
+### 💡 Turning Ideas into Interactive Digital Experiences
+
+Made with ❤️ by **Sanket Bacchanna**
 
 </div>
