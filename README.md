@@ -1,7 +1,9 @@
 <h1 align="center">🌐 Personal Portfolio Website</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Portfolio-Live-success?style=for-the-badge" />
+  <a href="https://sanket-portfolioo.netlify.app/" target="_blank">
+  <img src="https://img.shields.io/badge/🌐_Live_Portfolio-Visit_Now-blue?style=for-the-badge" />
+</a>
   <img src="https://img.shields.io/badge/Responsive-100%25-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Made%20With-HTML%20CSS%20JS-orange?style=for-the-badge" />
 </p>
