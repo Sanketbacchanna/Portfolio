@@ -62,3 +62,12 @@ It is designed to provide visitors with a complete overview of my work, experien
 🏆 Certifications
 📄 Resume
 📞 Contact
+
+---
+## ⭐ Support
+<div align="center">
+💡 "Turning Ideas into Interactive Digital Experiences"
+
+Made with ❤️ by Sanket Bacchanna
+
+</div>
