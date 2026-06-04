@@ -61,6 +61,7 @@ This portfolio showcases my skills, projects, certifications, and achievements i
 
 <img width="1916" height="910" alt="image" src="https://github.com/user-attachments/assets/54ff409e-b880-4bf0-86c2-08682cdda7a1" />
 
+---
 ## ✨ Features
 
 ✔ Modern & Clean UI Design
