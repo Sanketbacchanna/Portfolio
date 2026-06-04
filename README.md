@@ -60,12 +60,6 @@ This portfolio showcases my skills, projects, certifications, and achievements i
 ## 📸 Screenshots
 
 <img width="1916" height="910" alt="image" src="https://github.com/user-attachments/assets/54ff409e-b880-4bf0-86c2-08682cdda7a1" />
-<img width="1919" height="886" alt="image" src="https://github.com/user-attachments/assets/5caa699f-87f3-4cc8-9be8-552713995970" />
-<img width="1904" height="910" alt="image" src="https://github.com/user-attachments/assets/d4d8b7b7-50f9-4935-a096-ef96518f29c8" />
-<img width="1901" height="909" alt="image" src="https://github.com/user-attachments/assets/a0a56e03-e0f3-44ed-8528-c347c879f44b" />
-<img width="1905" height="906" alt="image" src="https://github.com/user-attachments/assets/6b4856ea-9642-457c-aec8-15802ccae848" />
-<img width="1876" height="908" alt="image" src="https://github.com/user-attachments/assets/0c34f0b6-f5c5-4ca0-a834-3eaa25bd0b9b" />
-
 
 ## ✨ Features
 
