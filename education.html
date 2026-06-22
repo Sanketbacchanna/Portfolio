@@ -10,6 +10,24 @@
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Optional style addition to layout multiple certificates cleanly */
+        .certification-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .certification-card {
+            display: flex;
+            gap: 1.5rem;
+            align-items: flex-start;
+            padding: 1.5rem;
+        }
+    </style>
 </head>
 
 <body>
@@ -32,7 +50,6 @@
     </nav>
 
 
-    <!-- Education Section -->
     <section id="education" class="education section-reveal">
         <h2 class="section-title">My <span class="accent">Journey</span></h2>
         <div class="timeline">
@@ -71,26 +88,80 @@
         </div>
 
         <h3 class="subsection-title" style="margin-top: 4rem; text-align: center;">Certifications</h3>
-        <div class="certification-card glass-panel" style="max-width: 600px; margin: 2rem auto;">
-            <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
-            <div class="cert-info">
-                <h4>Software Development</h4>
-                <p class="cert-issuer">Forage | Dec 2025</p>
-                <p class="cert-desc">Completed an online certification gaining practical skills in building
-                    real-world applications.</p>
+
+        <div class="certification-container">
+            <div class="certification-card glass-panel">
+                <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+                <div class="cert-info">
+                    <h4>Technology Job Simulation</h4>
+                    <p class="cert-issuer">Deloitte | Jun 2026</p> [cite: 122, 126]
+                    <p class="cert-desc">Completed practical simulation tasks focusing on core software coding and
+                        development workflows.</p> [cite: 124, 127, 128]
+                </div>
             </div>
-            <div class="cert-info">
-                <h4>Frontend Developer (React)</h4>
-                <p class="cert-issuer">HackerRank | Apr 2026</p>
-                <p class="cert-desc">Developed React applications using modern frontend practices.</p>
+
+            <div class="certification-card glass-panel">
+                <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+                <div class="cert-info">
+                    <h4>Techquezt #31 - Tech Behind Everyday Apps</h4>
+                    <p class="cert-issuer">Naukri Campus | Jun 2026</p> [cite: 48, 56]
+                    <p class="cert-desc">Participated in a technology learning event focused on modern applications.</p>
+                    [cite: 53, 54]
+                </div>
             </div>
-            <div class="cert-info">
-                <h4>Techquezt #31 - Tech Behind Everyday Apps</h4>
-                <p class="cert-issuer">Naukri Campus | Jun 2026</p>
-                <p class="cert-desc">Participated in a technology learning event focused on modern applications.</p>
+
+            <div class="certification-card glass-panel">
+                <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+                <div class="cert-info">
+                    <h4>AI Tools and ChatGPT Workshop</h4>
+                    <p class="cert-issuer">be10x | May 2026</p> [cite: 1, 5, 19]
+                    <p class="cert-desc">Mastered using generative AI tools to rapidly create presentations, evaluate
+                        technical data, code, and debug applications.</p> [cite: 5, 6, 7, 8]
+                </div>
+            </div>
+
+            <div class="certification-card glass-panel">
+                <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+                <div class="cert-info">
+                    <h4>All India Naukri Campus Aptitude Test (AINCAT)</h4>
+                    <p class="cert-issuer">Naukri Campus | May 2026</p> [cite: 67, 68, 69]
+                    <p class="cert-desc">Successfully participated in India's major competitive career assessment
+                        simulation evaluating logical reasoning and aptitude analytics.</p> [cite: 69, 70]
+                </div>
+            </div>
+
+            <div class="certification-card glass-panel">
+                <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+                <div class="cert-info">
+                    <h4>Frontend Developer (React)</h4>
+                    <p class="cert-issuer">HackerRank | Apr 2026</p> [cite: 44, 47]
+                    <p class="cert-desc">Successfully passed the formal platform role certification test demonstrating
+                        industry-standard React engineering practices.</p> [cite: 40, 43]
+                </div>
+            </div>
+
+            <div class="certification-card glass-panel">
+                <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+                <div class="cert-info">
+                    <h4>Software Development Job Simulation</h4>
+                    <p class="cert-issuer">Datacom (Forage) | Dec 2025</p> [cite: 107, 108, 113]
+                    <p class="cert-desc">Gained concrete experience executing technical design reviews alongside
+                        isolated root cause debugging practices.</p> [cite: 114, 115, 116]
+                </div>
+            </div>
+
+            <div class="certification-card glass-panel">
+                <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+                <div class="cert-info">
+                    <h4>Cybersecurity Analyst Job Simulation</h4>
+                    <p class="cert-issuer">TATA (Forage) | Dec 2025</p> [cite: 20, 24, 26]
+                    <p class="cert-desc">Completed deep practical workflows involving Identity and Access Management
+                        (IAM) strategies and architectural integration solutions.</p> [cite: 27, 28, 29, 30, 31]
+                </div>
             </div>
         </div>
     </section>
+
     <footer>
         <p>&copy; 2026 Sanket. Designed & Built with ❤️</p>
     </footer>
