@@ -152,3 +152,75 @@ if (filterBtns.length > 0 && skillItems.length > 0) {
         });
     });
 }
+
+// Certificate Modal
+const modal = document.getElementById("cert-modal");
+const modalImg = document.getElementById("modal-img");
+const modalTitle = document.getElementById("modal-title");
+const modalIssuer = document.getElementById("modal-issuer");
+const modalDownload = document.getElementById("modal-download");
+const modalClose = document.querySelector(".modal-close");
+const viewCertBtns = document.querySelectorAll(".view-cert-btn");
+
+if (modal && viewCertBtns.length > 0) {
+    viewCertBtns.forEach(btn => {
+        btn.addEventListener("click", () => {
+            const card = btn.closest(".certification-card");
+            if (card) {
+                const imgUrl = card.getAttribute("data-cert-img");
+                const title = card.getAttribute("data-cert-title");
+                const issuer = card.getAttribute("data-cert-issuer");
+                const date = card.getAttribute("data-cert-date");
+
+                if (modalImg) modalImg.src = imgUrl;
+                if (modalTitle) modalTitle.textContent = title;
+                if (modalIssuer) modalIssuer.textContent = `${issuer} | ${date}`;
+                if (modalDownload) modalDownload.href = imgUrl;
+
+                modal.classList.add("show");
+            }
+        });
+    });
+
+    if (modalClose) {
+        modalClose.addEventListener("click", () => {
+            modal.classList.remove("show");
+        });
+    }
+
+    // Close on click outside the content
+    modal.addEventListener("click", (e) => {
+        if (e.target === modal) {
+            modal.classList.remove("show");
+        }
+    });
+}
+
+// Cursor Hover Effect
+const updateHoverEffect = () => {
+    const hoverables = document.querySelectorAll("a, button, .filter-btn, .modal-close, .view-cert-btn, .menu-toggle");
+    hoverables.forEach(el => {
+        el.removeEventListener("mouseenter", addHoverClass);
+        el.removeEventListener("mouseleave", removeHoverClass);
+        
+        el.addEventListener("mouseenter", addHoverClass);
+        el.addEventListener("mouseleave", removeHoverClass);
+    });
+};
+
+function addHoverClass() {
+    if (typeof cursorOutline !== 'undefined' && cursorOutline) cursorOutline.classList.add("cursor-hover");
+    if (typeof cursorDot !== 'undefined' && cursorDot) cursorDot.classList.add("cursor-hover-dot");
+}
+
+function removeHoverClass() {
+    if (typeof cursorOutline !== 'undefined' && cursorOutline) cursorOutline.classList.remove("cursor-hover");
+    if (typeof cursorDot !== 'undefined' && cursorDot) cursorDot.classList.remove("cursor-hover-dot");
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    updateHoverEffect();
+});
+
+// Run hover effect scanner immediately
+updateHoverEffect();

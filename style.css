@@ -94,7 +94,20 @@ body::before {
     width: 40px;
     height: 40px;
     border: 1px solid var(--accent-glow);
-    transition: width 0.2s, height 0.2s, border 0.2s;
+    transition: width 0.2s, height 0.2s, border 0.2s, background-color 0.2s;
+}
+
+.cursor-outline.cursor-hover {
+    width: 60px;
+    height: 60px;
+    border-color: var(--accent-color);
+    background-color: rgba(0, 240, 255, 0.05);
+    box-shadow: 0 0 15px var(--accent-glow);
+}
+
+.cursor-dot.cursor-hover-dot {
+    width: 0px;
+    height: 0px;
 }
 
 /* Typography & Utilities */
@@ -550,7 +563,121 @@ section {
     margin: 0.5rem 0;
 }
 
+.view-cert-btn {
+    background: transparent;
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: none;
+    margin-top: 0.8rem;
+    transition: var(--transition);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.view-cert-btn:hover {
+    background: var(--accent-color);
+    color: var(--bg-color);
+    box-shadow: 0 0 10px var(--accent-glow);
+}
+
+/* Certificate Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(10, 10, 15, 0.9);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.modal.show {
+    display: flex;
+    opacity: 1;
+}
+
+.modal-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90vh;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--card-border);
+    background: rgba(255, 255, 255, 0.02);
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    transform: scale(0.9);
+    transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.modal.show .modal-content {
+    transform: scale(1);
+}
+
+.modal-content img {
+    max-width: 100%;
+    max-height: 60vh;
+    border-radius: 8px;
+    object-fit: contain;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.modal-close {
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    font-size: 2.5rem;
+    color: var(--text-color);
+    cursor: none;
+    transition: var(--transition);
+}
+
+.modal-close:hover {
+    color: var(--accent-color);
+}
+
+.modal-caption {
+    margin-top: 1.2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.modal-caption h3 {
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 0.3rem;
+}
+
+.modal-caption p {
+    color: var(--accent-color);
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.modal-caption .btn {
+    padding: 0.5rem 1.5rem;
+    font-size: 0.8rem;
+}
+
 /* Projects Section */
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

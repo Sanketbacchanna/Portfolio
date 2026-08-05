@@ -63,6 +63,17 @@
             </div>
             <div class="timeline-item glass-panel">
                 <div class="timeline-dot"></div>
+                <div class="timeline-date">June 2026 - July 2026</div>
+                <div class="timeline-content">
+                    <h3>Front-End Development Intern</h3>
+                    <p>Sysslan IT Solutions • Internship</p>
+                    <p style="font-size: 0.9rem; margin-top: 0.5rem; color: #a0aec0;">
+                        Developed interactive web pages using HTML, CSS, and JavaScript. Contributed to designing responsive user interfaces, implementing modern frontend practices, and optimizing site performance.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item glass-panel">
+                <div class="timeline-dot"></div>
                 <div class="timeline-date">August 2025</div>
                 <div class="timeline-content">
                     <h3>Bachelor of Computer Application (BCA)</h3>
@@ -90,6 +101,16 @@
         <h3 class="subsection-title" style="margin-top: 4rem; text-align: center;">Certifications</h3>
 
         <div class="certification-container">
+            <div class="certification-card glass-panel" data-cert-img="sysslan-internship-certificate.png" data-cert-title="Internship Completion Certificate (Front-End Development)" data-cert-issuer="Sysslan IT Solutions" data-cert-date="Jul 2026">
+                <div class="cert-icon"><i class="fa-solid fa-briefcase"></i></div>
+                <div class="cert-info">
+                    <h4>Front-End Development Internship</h4>
+                    <p class="cert-issuer">Sysslan IT Solutions | Jul 2026</p>
+                    <p class="cert-desc">Successfully completed a Front-End Development Internship. Developed responsive user interfaces, optimized site performance, and ensured cross-browser compatibility using HTML, CSS, and JavaScript.</p>
+                    <button class="view-cert-btn"><i class="fa-solid fa-eye"></i> View Certificate</button>
+                </div>
+            </div>
+
             <div class="certification-card glass-panel">
                 <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
                 <div class="cert-info">
@@ -175,6 +196,20 @@
     <footer>
         <p>&copy; 2026 Sanket. Designed & Built with ❤️</p>
     </footer>
+
+    <!-- Certificate Modal -->
+    <div id="cert-modal" class="modal">
+        <span class="modal-close">&times;</span>
+        <div class="modal-content glass-panel">
+            <img id="modal-img" src="" alt="Certificate Preview">
+            <div class="modal-caption">
+                <h3 id="modal-title">Certificate</h3>
+                <p id="modal-issuer"></p>
+                <a id="modal-download" href="" download class="btn primary-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 
